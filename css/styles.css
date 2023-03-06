@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: mario;
+    src: url(../fonts/emulogic.ttf);
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    background-image: url(../assets/aaa.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    
+    animation: slider 60s;
+}
+
+@keyframes slider{
+    from {
+        background-position: left center;
+    }
+
+    to {
+        background-position: right center;
+    }
+}
+
+.header{
+    margin-top: 2px;
+    text-align: center;
+    font-family: mario;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.header1{
+    font-family: mario;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.audio{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 15px;
+}
+
+.player1{
+    margin-left: -25px;
+    text-align: center;
+    font-family: mario;
+    font-size: 1.4rem;
+    color: white;
+    
+}
+
+.player2{
+    text-align: center;
+    font-family: mario;
+    font-size: 1.4rem;
+    color: white;
+    
+}
