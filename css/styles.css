@@ -13,7 +13,23 @@ body{
     margin: 0;
 }
 
-.background {
+.background2{
+    background-image: url(../assets/background-menu.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    
+}
+
+.background{
     background-image: url(../assets/background-level-1.jpg);
     background-size:cover;
     background-repeat: no-repeat;
@@ -28,22 +44,6 @@ body{
     margin: 0;
     
     animation: slider 60s;
-}
-
-.background2 {
-    background-image: url(../assets/background-menu.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    height: 100%;
-
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0;
-    
 }
 
 @keyframes slider{
