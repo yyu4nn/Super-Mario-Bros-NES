@@ -43,7 +43,7 @@ body{
     bottom: 0;
     margin: 0;
     
-    animation: slider 60s;
+    animation: slider 10s;
 }
 
 @keyframes slider{
@@ -110,4 +110,28 @@ body{
   /* navegadores WebKit */
   .player1:-webkit-any-link {
     color: white;
+  }
+
+  .mario{
+    background-image: url(../assets/mario.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25vh;
+    height: 25vh;
+    animation: mario 10s;
+  }
+
+  @keyframes mario {
+    0% {left: 0px;}
+    19% {left: 0px; bottom: 100px;}
+    20% {bottom: 100px; bottom: 200px;}
+    23% {bottom: 200px; bottom: 100px;}
+    39% {left: 0px; bottom: 100px;}
+    40% {bottom: 100px; bottom: 200px;}
+    43% {bottom: 200px; bottom: 100px;}
+    64% {bottom: 100px;}
+    65% {bottom: 100px; bottom: 300px;}
+    70% {bottom: 300px; bottom: 278px;}
+    99% {bottom: 278px; left: -20px;}
+    100% {left: 0px;}
   }
