@@ -122,16 +122,16 @@ body{
   }
 
   @keyframes mario {
-    0% {left: 0px;}
-    19% {left: 0px; bottom: 100px;}
-    20% {bottom: 100px; bottom: 200px;}
-    23% {bottom: 200px; bottom: 100px;}
-    39% {left: 0px; bottom: 100px;}
-    40% {bottom: 100px; bottom: 200px;}
-    43% {bottom: 200px; bottom: 100px;}
-    64% {bottom: 100px;}
-    65% {bottom: 100px; bottom: 300px;}
-    70% {bottom: 300px; bottom: 278px;}
-    99% {bottom: 278px; left: -20px;}
-    100% {left: 0px;}
+    0% {left: 0%; bottom: 15%;}
+    19% {left: 0%; bottom: 15%;}
+    20% {bottom: 35%;}
+    23% {bottom: 0%; bottom: 15%;}
+    39% {bottom: 15%;}
+    40% {bottom: 35%; bottom: 35%;}
+    43% {bottom: 35%; bottom: 15%;}
+    64% {bottom: 15%;}
+    65% {bottom: 45%; bottom: 46%;}
+    70% {bottom: 45%; bottom: 46%; left: 20%;}
+    99% {bottom: 46%; left: 15%;}
+    100% {left: 15%; bottom: 15%;}
   }
